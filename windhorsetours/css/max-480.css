@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Blue bar start */
+
+.blue-bar article > div {
+	width: auto;
+}
+
+.blue-bar article > div:first-child {
+	width: auto;
+	margin-bottom: 0;
+}
+
+.blue-bar article .inner {
+	margin: 0;
+	padding: 25px 0 0 0;
+	border: none;
+	border-top: 1px solid #7890b2;
+}
+
+/* Blue bar start */
+
+
+
+.destination-block, .trip-advisor, .newsletter {
+	width: auto;
+	float: none;
+}
+
+.destination-block {
+	background:  #fff none;
+	border-top: 1px solid #ccc;
+}
+
+.destinations-block > div {
+	background: none;
+}
+
+/* Footer links start */
+
+.footer-links {
+	background-image: none !important;
+}
+
+.footer-links > div {
+	width: 100% !important;
+}
+
+.footer-links ul + ul {
+	margin: 0 0 0 0;
+}
+
+.footer-links .inner {
+	margin: 20px 0;
+}
+
+.footer-links li {
+	border-top: 1px solid #fff;
+	padding-top: 7px;
+}
+
+/* Footer links end */
+
+/* Main contents start */
+
+.main-contents article,
+.main-contents aside {
+	width: auto;
+	float: none;
+}
+
+.main-contents aside {
+	margin-top: 20px;
+}
+
+.main-contents .inner {
+	margin-right: 0;
+}
+
+/* Main contents end */
+
+.banner-small {
+	padding: 0;
+}
+
+/* Website right column start */
+
+.rightcol-linklist ul {
+	display: none;
+}
+
+.rightcol-linklist h3  {
+	cursor: pointer;
+	position: relative;
+	padding-right: 40px;
+}
+
+.rightcol-linklist h3:after  {
+	position: absolute;
+	content: '';
+	right: 20px;
+	top: 20px;
+	border-top: 10px solid #fff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.show-linklist h3:after  {
+	border-top: none;
+	border-bottom: 10px solid #fff;
+}
+
+.rightcol-linklist h3:before  {
+	cursor: pointer;
+	position: relative;
+}
+
+.show-linklist ul {
+	display: block;
+}
+
+.shortlist h3 {
+	padding-bottom: 25px;
+}
+
+.shortlist h3:after  {
+	display: none;
+}
+
+.shortlist.show-linklist h3 {
+	padding-bottom: 0;
+}
+
+
+/* Destination page start */
+
+.destination-page .main-contents .inner {
+	margin-right: 0;
+}
+
+/* Destination page end */
+
+
+/* Trip page start */
+
+.trip-intro {
+	padding: 30px 25px 0 25px;
+}
+
+.trip-price, .trip-btns-full {
+	margin-top: 20px;
+}
+
+.trip-desc {
+	padding: 20px 0;
+}
+/* Trip page end */
+
+
+
+/* Shaded bottom start */
+
+.trip-page .shaded-bottom {
+	padding: 15px 20px 20px 20px;
+}
+
+/* Shaded bottom end */
+
+/* Hotels page start */
+
+.hotels-page .main-contents-full {
+	padding: 10px;
+}
+
+.hotels-page .trip-list li {
+	display: block;
+	width: auto;
+}
+
+/* Hotels page end */
+
+/* General page start */
+
+.general-page article > .inner {
+	padding: 20px;
+}
+
+/* General page end */

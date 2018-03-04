@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header top start */
+
+.header-top .phones {
+	margin-top: 20px;
+}
+
+.header-top .phones span {
+	display: block;
+	margin: 7px 0 0 0;
+}
+
+.header-top .phones span:before {
+	content: '';
+}
+
+/* Header top end */
+
+/* Trip search start */
+
+.trip-search-wrap .trip-search {
+	right: 0;
+	bottom: auto;
+	top: 56px;
+	width: 250px;
+	padding: 20px;
+	border: 1px solid #b72025;
+	display: none;
+}
+
+.trip-search-wrap > a {
+	display: block;
+}
+
+.trip-search-show .trip-search {
+	display: block;
+}
+
+.search-term-wrapper,
+.search-term-wrapper + div {
+	float: none;
+	width: auto;
+}
+
+.search-term {
+	margin: 0 0 10px 0 ;
+}
+
+
+/* Trip search end */
+
+
+/* Footer top start */
+
+.footer-top {
+	margin-top: 30px;
+}
+
+/* Footer links start */
+
+.footer-links {
+	padding: 20px;
+}
+
+.footer-links ul {
+	float: none;
+	width: auto !important;
+}
+
+.footer-links h3 + ul li {
+	margin-right: 0;
+}
+
+.footer-links .inner {
+	margin: 0 20px;
+}
+
+/* Footer links end */
+
+/* Footer top end */
+
+/* Footer start */
+
+footer {
+	margin-top: 30px;
+}
+
+/* Footer end */
+
+/* Main contents start */
+
+.main-contents article {
+	width: 62%;
+}
+
+.main-contents aside {
+	width: 38%;
+}
+
+/* Main contents end */
+
+.trip-list .inner {
+	margin-right: 0;
+}
+
+.trip-thumb img {
+	width: 100%;
+}
+
+.trip-thumb,
+.trip-specs {
+	float: none;
+	width: auto;
+}
+
+.trip-specs {
+	margin-top: 15px;
+}
+
+.hotels-page .trip-list li > .inner {
+	padding: 20px;
+}
+
+.hotels-page .trip-list li {
+	width: 50%;
+}
+
+/* Trip list end */
+
+/* Trip page start */
+
+.trip-intro {
+	padding: 30px 25px 0 25px;
+}
+
+.trip-page .main-contents .inner {
+	margin-left: 30px;
+	padding-left: 30px;
+}
+
+.trip-tab .inner {
+	padding-left: 0 !important;
+}
+
+.trip-tab .inner div {
+	margin-top: 30px;
+	padding: 30px 0 0 30px;
+}
+
+.trip-tab .inner div:first-child {
+	padding: 0 0 0 30px;
+}
+
+.trip-map a {
+	left: 30px;
+}
+
+/* Trip page start */
+
+/* Home contents start */
+
+.home-intro p {
+	padding-right: 0;
+	margin-top: 10px;
+}
+
+.home-intro {
+	background: none;
+}
+
+.home-intro, .ftrips, .home-testimonials {
+	padding: 25px 30px;
+}
+
+.ftrips {
+	padding: 25px;
+}
+
+.ftrips h2 {
+	margin-bottom: 20px;
+}
+
+.ftrips .owl-prev {
+	left: -40px !important;
+}
+
+.ftrips .owl-next {
+	right: -40px !important;
+}
+
+/* Home contents end */
+
+
+
+/* General page start */
+
+.general-page article > .inner {
+	padding: 40px;
+}
+
+/* General page end */
+
+/* Contact page start */
+
+.contact-blocks li {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-top: 25px;
+	padding: 5px 25px 25px 25px;
+	background: #f5f5f5;
+}
+
+.contact-blocks > li > div,
+.contact-blocks > li > div + div {
+	width: auto;
+	float: none;
+}
+
+.contact-blocks li > div > .inner {
+	margin: 15px 0 0 0 !important;
+	padding: 0;
+}
+
+/* Contact page end */

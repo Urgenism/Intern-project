@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Common css start */
+
+.centralizer {
+	width: auto;
+	padding: 0 30px;
+}
+
+/* Common css end */
+
+/* Header top start */
+
+.logo > img {
+	display: none;
+}
+
+/* Header top end */
+
+/* Home content start */
+
+/* Home content start */
+
+/* Footer links start */
+
+.footer-links {
+	margin-bottom: 30px;
+}
+
+/* Footer links end */
+
+
+.more-menu {
+	display: block;
+}
+
+.more-menu ins {
+	display: none;
+}
+
+.more-menu ul {
+	left: auto;
+	right: -1px;
+}
+
+.more-menu li,
+.more-menu .have-info div {
+	display: none;
+}
+
+.more-menu .show-child ul {
+	position: relative;
+	left: auto;
+	top: auto;
+}
+
+.more-menu .have-child:hover li {
+	display: block;
+}
+
+.contact-menu,
+.faq-menu {
+	display: none;
+}
+
+.more-menu .contact-menu,
+.more-menu .faq-menu  {
+	display: block;
+}
+
+.more-menu .faq-menu a {
+	border: none;
+}
+
+@media only screen and (max-width: 1020px) {
+
+.more-menu .faq-menu a {
+	border-top: 1px solid #ccc;
+}
+.customize-menu {
+	display: none;
+}
+.more-menu .customize-menu {
+	display: block;
+}
+.more-menu .customize-menu a {
+	border: none;
+}
+}
+
+@media only screen and (max-width: 875px) {
+
+.more-menu .customize-menu a {
+	border-top: 1px solid #ccc;
+}
+.travel-center-menu {
+	display: none;
+}
+.more-menu .travel-center-menu {
+	display: block;
+}
+.more-menu .travel-center-menu a {
+	border: none;
+}
+}
+
+@media only screen and (max-width: 585px) {
+
+.more-menu .travel-center-menu a {
+	border-top: 1px solid #ccc;
+}
+.company-menu {
+	display: none;
+}
+.more-menu .company-menu {
+	display: block;
+}
+.more-menu .company-menu a {
+	border: none;
+}
+}
+
+@media only screen and (max-width: 445px) {
+.destinations-menu {
+	display: none;
+}
+.more-menu .destinations-menu {
+	display: block;
+}
+
+.more-menu {
+	float: right;
+	border-left: 1px solid #ccc;
+	margin-right: 56px;
+}
+
+.more-menu span {
+	display: none;
+}
+
+.more-menu ins {
+	display: inline;
+	text-decoration: none;
+}
+}
+
+.more-menu .have-child:hover ul {
+	display: none;
+}
+
+.more-menu .show-child ul,
+.more-menu .show-child:hover ul,
+.more-menu .show-child ul li {
+	display: block;
+}
+
+.more-menu .show-child ul {
+	position: relative;
+	left: auto;
+	right: auto;
+	top: auto;
+	border: none;
+	font-size: 85%;
+	width: auto;
+}
+
+.more-menu .have-child ul li {
+	position: relative;
+}
+
+.more-menu .show-child ul li a {
+	border-top: 1px solid #ccc;
+}
+/* Blue bar start */
+.blue-bar .centralizer {
+	padding: 0 0 0 30px;
+}
+
+.blue-bar .rightbg {
+	width: 34.25%;
+}
+
+.blue-bar article > div {
+	margin: 30px 0;
+}
+
+.blue-bar article .inner {
+	margin: 0 30px;
+	padding-left: 30px;
+}
+
+.fb-box {
+	margin: 30px 30px 20px 30px;
+}
+
+.affiliations {
+	margin: 30px;
+	margin-top: 20px;
+}
+/* Blue bar end */
+
+/* Trip page start */
+
+.trip-page .main-contents {
+	margin: 0;
+}
+
+.trip-page .main-contents .centralizer {
+	padding: 0;
+}
+
+.trip-desc {
+	padding: 30px 0;
+}
+
+/* Trip page end */

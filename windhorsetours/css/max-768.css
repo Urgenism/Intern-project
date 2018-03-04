@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header start */
+
+header {
+	height: auto;
+}
+
+.header {
+	position: relative;
+	left: auto;
+	top: auto;
+	width: auto;
+}
+
+
+/* Header top start */
+@media only screen and (max-width: 600px) {
+
+.header-top {
+	padding: 0 0 20px 0;
+}
+	
+.header-top .phones, .logo {
+	float: none;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+.header-top .phones {
+	background: #CCC;
+	text-align: left;
+	margin: 0 0 20px 0;
+	padding: 3px 10px 10px 10px;
+	line-height: 1.4em;
+}
+
+.header-top .phones span {
+	display: inline-block;
+}
+
+.header-top .phones span:before {
+	content: '/';
+}
+
+}
+/* Header top start */
+
+/* Header end */
+
+/* Banner start */
+
+.owl-wrapper {
+	height: auto;
+	overflow: auto;
+}
+
+/* Banner end */
+
+/* Common css start */
+
+.centralizer {
+	width: auto;
+	padding: 0 20px;
+}
+
+/* Common css end */
+
+/* Header start */
+header .centralizer, .banner .centralizer, .main-contents .centralizer {
+	padding: 0;
+}
+
+.general-page .main-contents .centralizer {
+	padding: 0 20px;
+}
+
+.destination-page .main-contents,
+.general-page .main-contents {
+	margin: 20px 0;
+}
+
+.destination-page .main-contents .inner {
+	margin-right: 20px;
+}
+
+.destination-page .main-contents .centralizer {
+	width: auto;
+	padding: 0 20px;
+}
+
+.main-contents {
+	margin: 0;
+}
+
+.main-contents-full, .banner-small {
+	padding: 20px;
+}
+
+.banner-small {
+	padding-bottom: 0;
+}
+
+/* Header end */
+
+/* Home contents start */
+
+.home-contents {
+	margin: 0;
+}
+
+/* Home contents end */
+
+/* Blue bar start */
+
+.blue-bar .centralizer {
+	padding: 0;
+}
+
+.blue-bar .rightbg {
+	display: none;
+}
+
+.blue-bar article {
+	width: auto;
+	float: none;
+	padding: 0 20px;
+}
+
+.blue-bar article > div {
+	margin: 20px 0;
+}
+
+.blue-bar article > div {
+	width: 48%;
+}
+
+.blue-bar article > div:first-child {
+	width: 52%;
+}
+
+.blue-bar article .inner {
+	margin: 0 0 0 20px;
+	padding-left: 20px;
+}
+
+.blue-bar aside {
+	width: auto;
+	float: none;
+	background: url(../img/blacktrans-20pc.png);
+	padding: 1px 0;
+}
+
+.fb-box {
+	margin: 20px 20px 10px 20px;
+}
+
+.affiliations {
+	margin: 20px;
+	margin-top: 0;
+}
+
+/* Blue bar end */
+
+
+
+/* Footer links start */
+
+.footer-links {
+	margin-bottom: 0;
+}
+
+/* Footer links end */
+
+
+
+/* Destinations start */
+
+.destinations-block,
+.social-newsletter {
+	float: none;
+	width: auto;
+}
+
+.destination-block .inner div {
+	width: 45%;
+}
+
+.destinations-block .inner {
+	padding: 20px;
+	letter-spacing: -4px;
+}
+
+.destinations-block span {
+	width: 55%;
+}
+
+.trip-advisor {
+	width: 50%;
+	float: left;
+}
+
+.newsletter {
+	width: 50%;
+	float: left;
+}
+
+/* Destinations end */
+
+/* Footer links start */
+
+.footer-top {
+	margin: 0;
+}
+
+.footer-top .centralizer {
+	padding: 0;
+}
+
+/* Footer links end */
+
+/* Footer start */
+footer {
+	margin: 0;
+}
+
+.trip-page .main-contents + footer {
+	padding: 0;
+}
+
+/* Footer end */
+
+/* Website right column start */
+
+.rightcol-linklist {
+	margin-top: 20px;
+}
+
+/* Main contents start */
+
+.main-contents article {
+	width: 60%;
+}
+
+.main-contents aside {
+	width: 40%;
+}
+
+/* Main contents end */
+
+/* Destination page start */
+
+.destination-map {
+	width: auto;
+	margin: 5px 0 20px 0;
+	float: none;
+}
+
+/* Destination page end */
+
+/* Page Intro start */
+
+.page-intro {
+	padding: 30px;
+}
+
+.destination-page .page-intro:before,
+.destination-page .page-intro:after {
+	width: 30px;
+}
+
+/* Page Intro end */
+
+/* General form start */
+
+aside .general-form label,
+aside .general-form span {
+	width: auto;
+	display: block;
+	float: none;
+}
+
+aside .general-form span {
+	margin-top: 5px;
+}
+
+/* General form start */
+
+/* Trip page start */
+
+@media only screen and (min-width: 481px) {
+
+.trip-desc .trip-rating
+.trip-desc .trip-price {
+	float: left;
+	width: 40%;
+}
+
+.trip-desc .trip-price {
+	margin-top: 15px;
+}
+
+.trip-desc .trip-btns-full {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	margin: 15px 0 0 0;
+}
+
+}
+
+.trip-page .main-contents article,
+.trip-page .main-contents aside {
+	width: auto;
+	float: none;
+}
+
+.trip-page .main-contents .inner {
+	margin: 15px 0 0 0;
+	padding: 15px 0 0 0;
+	border-left: none;
+	border-top: 1px solid #929292;
+}
+
+.trip-page .main-contents .liquid-slider .trip-list .inner {
+	margin: 0;
+	padding: 0;
+	border-left: none;
+	border-top: none;
+}
+
+.trip-tab .inner div {
+	margin-top: 20px;
+	padding: 20px 0 0 0;
+}
+
+.trip-tab .inner div:first-child {
+	padding: 5px 0 0 0;
+}
+
+.trip-map a {
+	left: 0;
+}
+
+/* Trip page end */
+
+/* Shaded bottom start */
+
+.shaded-bottom {
+	padding: 25px 30px;
+}
+
+.trip-page .shaded-bottom {
+	padding: 15px 30px 20px 30px;
+}
+
+/* Shaded bottom end */
+
+
+/* Hotels page start */
+
+.hotels-page .main-contents-full {
+	padding: 15px;
+}
+
+/* Hotels page end */
+
+/* General page start */
+
+.general-page article > .inner {
+	padding: 30px;
+}
+
+/* General page end */
+
+
+
+/* Text reviews new start */
+
+.text-reviews-new li > div {
+	display: block;
+	width: auto;
+}
+
+.review-photo {
+	text-align: left;
+	padding: 1px 0 20px 0;
+}
+
+.review-photo br {
+	display: none;
+}
+
+.review-photo:before {
+	border-bottom: 10px solid #f5f5f5;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: none;
+	position: absolute;
+	right: auto;
+	top: auto;
+	bottom: 0;
+	left: 50px;
+}
+
+/* Text reviews new end */
+
+/****************** WordPress customization start ******************/
+
+/* Gallery start */
+
+.gallery {
+	margin: 20px 0;
+	padding: 5px 25px 25px 25px;
+	background: #e5e5e5;
+}
+
+.gallery-item,
+.gallery-item:first-child + .gallery-item,
+.gallery-item + br + .gallery-item + .gallery-item {
+	float: none;
+	width: auto;
+	margin-top: 20px;
+}
+
+.gallery-item:first-child + .gallery-item .gallery-icon,
+.gallery-item + br + .gallery-item + .gallery-item .gallery-icon,
+.gallery-item:first-child + .gallery-item .gallery-caption,
+.gallery-item + br + .gallery-item + .gallery-item .gallery-caption {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Gallery end */
+
+/****************** WordPress customization end ******************/
